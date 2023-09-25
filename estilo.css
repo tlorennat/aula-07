@@ -1,0 +1,157 @@
+body{
+    background-color: #F2ECE4;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho{
+    background-image: url(imagens/pexels-krakograff-textures-12738868.jpg);
+    height: 500px;
+    background-size: cover;
+    padding-top: 1px;
+}
+
+.div-cabecalho{
+    margin: 100px auto 0 auto;
+    width: 80%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.div-cabecalho h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.div-cabecalho a {
+    background-color: #81858C;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.div-cabecalho a:hover {
+    background-color: #ffffff;
+    color: #81858C;
+}
+
+.cabecalho nav ul{
+   margin: 25px 40px 0 0; 
+   text-align: right;
+}
+
+.cabecalho nav ul li {
+    display: inline-block;
+    margin-left: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+.cabecalho nav a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #81858C;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.cabecalho nav a:hover {
+    background-color: #ffffff;
+    color: #81858C;   
+}
+
+main{
+    width: 90%;
+    margin: auto;
+}
+
+.artigo1{
+    background-color: floralwhite;
+    font-size: small;
+    margin: 20px 30px 0 0;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+    
+}
+
+.artigo1 h2{
+    background-color: #E68873;
+    text-align: center; 
+    color: #613930;   
+}
+
+.artigo2{
+    background-color: floralwhite;
+    font-size: small;
+    margin: 20px 30px 0 0;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px; 
+}
+
+.artigo2 h2{
+    background-color: #E68873;
+    text-align: center; 
+    color: #613930;   
+}
+
+.artigo3{
+    background-color: floralwhite;
+    font-size: small;
+    margin: 20px 30px 0 0;
+    padding-top: 0.5px;
+     
+}
+
+.artigo3 h2{
+    background-color: #E68873;
+    text-align: center; 
+    color: #613930;   
+}
+.ibage{
+    float: left;
+    width: 65px;
+    height: 65px;
+    margin: 0;
+    transition: all ease-in-out 0.3s;
+}
+
+.ibage2{
+    float: left;
+    width: 65px;
+    height: 65px;
+    margin: 0;
+    transition: all ease-in-out 0.3s;
+}
+
+.ibage3{
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin: 0;
+    transition: all ease-in-out 0.3s;
+}
+
+.ibage:hover{
+    transform: scale(1.1);
+    transition: all ease-in-out 0.3s;
+}
+
+.ibage2:hover{
+    transform: scale(1.1);
+    transition: all ease-in-out 0.3s;
+}
+
+.ibage3:hover{
+    transform: scale(1.1);
+    transition: all ease-in-out 0.3s;
+}
+
+footer{
+    background-color: #E68873;
+    text-align: center;
+    color: #ffffff;
+}
